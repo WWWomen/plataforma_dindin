@@ -1,0 +1,38 @@
+.footer {
+    background-color: #2e948a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer img {
+    max-width: 250px;
+    height: auto;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    padding: 5px;
+    
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #E5E5E5;
+    font-weight: 700;  
+}
+
+.border-radius {
+    margin: 10px;
+    border: 2px solid #E5E5E5;
+    border-radius: 50px;
+}
+
+.border-radius p {
+    padding: 5px 50px;
+    color: #E5E5E5; 
+}
