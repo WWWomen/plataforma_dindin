@@ -1,3 +1,5 @@
+/* *****************      Primeira sessão       ************** */
+
 .section-one {
     background-color: #ffffff;
 }
@@ -26,14 +28,15 @@
 
 .know-more {
     width: 160px;
-    color: #FF4081;
+    text-align: center;
     border: 2px solid #FF4081;
     border-radius: 50px;
+    padding: 10px;
 }
 
-.know-more p {
-    text-align: center;
-    padding: 5px;
+.know-more a {
+    text-decoration: none;
+    color: #FF4081;
 }
 
 .box-image {
@@ -42,4 +45,17 @@
 
 .box-image img {
     max-width: 400px;
+}
+
+
+/* *****************      Segunda sessão       ************** */
+.section-two {
+    background-color: #F7F7F7;
+}
+
+.box-two {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  
+    margin-top: 80px;
 }
