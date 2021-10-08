@@ -1,0 +1,45 @@
+.section-one {
+    background-color: #ffffff;
+}
+
+.box-one {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  
+    margin-top: 80px;
+}
+
+.box-title {
+    margin: 0px 40px;
+}
+
+.title-h1 {
+    color: #FF4081;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.text {
+    margin: 20px 0px;
+    color:#555555;
+}
+
+.know-more {
+    width: 160px;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    border-radius: 50px;
+}
+
+.know-more p {
+    text-align: center;
+    padding: 5px;
+}
+
+.box-image {
+    margin: 0px 60px 40px 60px;
+}
+
+.box-image img {
+    max-width: 400px;
+}

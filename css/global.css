@@ -23,7 +23,7 @@
 .header a {
     margin: 30px;
     text-decoration: none;
-    color: #E5E5E5;
+    color: #ffffff;
     font-weight: 700;
 }
 
@@ -46,18 +46,18 @@
     display: block;
     padding: 5px;
     text-decoration: none;
-    color: #E5E5E5;
+    color: #ffffff;
     font-weight: 700;  
 }
 
-.border-radius {
+.border-footer {
     margin: 10px;
-    border: 2px solid #E5E5E5;
+    border: 2px solid #ffffff;
     border-radius: 50px;
 }
 
-.border-radius p {
+.border-footer p {
     padding: 10px 20px;
-    color: #E5E5E5; 
+    color: #ffffff; 
 }
 
