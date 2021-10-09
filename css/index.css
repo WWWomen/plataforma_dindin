@@ -50,12 +50,154 @@
 
 /* *****************      Segunda sessão       ************** */
 .section-two {
-    background-color: #F7F7F7;
+    background-color: #f6f6f6;
 }
 
 .box-two {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;  
-    margin-top: 80px;
+   padding: 100px 0px;
+   max-width: 80%;
+   margin: auto;
 }
+
+.box-text-image {
+    display: flex;    
+}
+
+.box-image-two {
+    flex: 1;
+    padding: 0px 50px;
+
+}
+
+.box-image-two img {
+    max-height: 250px;
+}
+
+.box-title-two {
+    text-align: center;
+}
+
+.title-h4 {
+    margin-top: 10px;
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.text-two {
+    margin: 20px 0px;
+    color:#555555;
+    font-size: 14px;
+}
+
+.start-now {
+    width: 160px;
+    background: #FF4081;
+    border-radius: 50px;
+    padding: 10px;
+    margin: auto;
+}
+
+.start-now a {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* ***************    Terceira Sessão       ************** */
+.section-three {
+    background-color: #ffffff;
+}
+
+.box-three {
+    padding: 100px 0px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.title-h2 {
+    color: #009688;
+    font-size: 28px;
+    font-weight: 400;
+} 
+
+.box-text-image-three {
+    display: flex;
+    padding-top: 60px;
+}
+
+.talk-about-us {
+    max-width: 35%;
+    padding: 0px 50px 0px 25px;
+} 
+
+.declaration {
+    font-size: 14px;
+}
+
+.person {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+
+/* *******************    Quarta Sessão       ****************** */
+.section-four {
+    background-color:#f6f6f6;
+}
+
+.box-four {
+    padding: 100px 0px 20px 0px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.title-h3 {
+    color: #009688;
+    font-size: 24px;
+}
+
+.box-text-image-four {
+    display: flex;
+    padding-top: 80px;
+}
+
+.box-card {
+    padding: 0px 100px 0px 0px;
+}
+
+.box-gray {
+    background-color: #c4c4c4;
+    height: 190px;
+    width: 300px;
+}
+
+.text-post {
+    color: #009688;
+    font-size: 20px;
+    font-weight: 700; 
+    margin-top: 15px;
+}
+
+.section-five {
+    background-color:#f6f6f6;
+    padding: 40px ;
+}
+
+.see-all-post {
+    text-align: center;
+    border: 2px solid #FF4081;
+    border-radius: 50px;
+    max-width: 200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.see-all-post a {
+    text-decoration: none;
+    color: #FF4081;
+}
+
+
