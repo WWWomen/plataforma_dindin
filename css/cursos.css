@@ -1,0 +1,122 @@
+/* *{
+    padding:10px;
+    margin: 10px;
+    /* font-family: 'Ubuntu', sans-serif; */
+
+h2{
+    
+    color: #FF4081;
+    padding: 40px 0px 0px 0px;
+    margin: 0px 25px 0px 30px;
+    font-size: 75px;
+    
+}
+
+.paragrafo1 p{
+    margin: 0px 32px;
+    font-size: 25px;
+    color: #555555;
+    
+
+}
+
+.paragrafo1{
+    
+    margin-top: -15px;
+    padding: 0;
+}
+   
+button{
+    background: #419488;
+    color: #FFFFFF;
+    position: absolute;
+    border-radius: 50px;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    width: 17%;
+    height: 65pX;
+    padding: 10px 10px 10px;
+    font-size: 25PX;
+    transition:all 2s ease-out;
+    margin-top: 30px;
+   
+}
+button:hover{
+    background-position: left bottom;
+    background: #16f1d1;
+}
+
+.bloco1{
+    width: 55%;
+}
+
+.bloco1 p{
+    padding: 40px 0px 20px;
+    font-size: 20px;
+    font-weight:200;
+    margin-right: 25px;
+    
+    
+}
+.bloco1 h3{
+    color: #FF4081;
+    padding:0px; 
+    font-size:45px;
+    
+}
+
+.txt h3{
+    margin-top: 65px;
+    margin-left: 0px;
+}
+
+.txt{
+    margin-left: 0px;
+}
+.txt p{
+    margin-top: 0px;
+}
+.txt button{
+    
+   margin-top: 15px;
+}
+
+
+
+.img1 img{
+        height: 481px;
+        width: 479px;
+
+        
+    }
+    .img2 img{
+        height: 480px;
+        width: 473px;
+               
+    }
+    .img3 img{
+        height: 614px;
+        width: 480px;
+        padding-top: 15px;
+        
+    }
+
+.container-flex{
+    display: flex;
+    padding: 40px;
+    margin: auto;
+    width: 100%;
+   
+}
+hr{ 
+    
+    border: 0;
+    border-top: 5px solid  #C4C4C4;
+    margin: 0 auto;
+    
+} 
+
+    
+
+
