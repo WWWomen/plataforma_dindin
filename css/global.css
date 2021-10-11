@@ -61,3 +61,43 @@
     color: #ffffff; 
 }
 
+
+/* ****** Media query header */
+@media only screen and (max-width: 480px) {
+    .header img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .header a {
+    font-size: 14px;
+    margin: 5px;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .links {
+        display: flex;
+        font-size: 22px;
+    }
+
+    .links a {
+        margin: 20px;
+    }
+
+    .footer img {
+        max-width: 150px;
+        height: auto;
+    }
+    
+    .border-footer {
+        max-width: 250px;
+        margin: 24px auto;
+        text-align: center;
+        font-size: 22px;
+    }
+}
+
+
