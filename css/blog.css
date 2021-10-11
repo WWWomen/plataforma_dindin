@@ -1,0 +1,79 @@
+main{
+
+    flex-direction:column;
+    display: flex;
+    
+/* primeira parte da pagina com texto e imagem */
+
+}
+.container-one {
+    display: flex;
+    margin: 128px 65px;
+    
+}
+.content-one {
+
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.content-one h1{
+    font-size: 60px;
+    color: #009688;
+    margin-bottom: 50px;
+}
+.content-one p{
+    font-size: 27px;
+}
+.container-one img{
+    margin-right: 190px;
+}
+
+/* A primeira parte terminou aqui */
+
+/* Aqui inicia a segunda parte com textos e retangulos */
+
+.container-flex {
+    display: flex;
+    margin-bottom: 110px;
+    margin-top: 110px;
+
+}
+
+    /* retangulo, titulo e paragrafo */
+
+.content {
+    margin-right: 100px;
+    margin-left: 100px;  
+}
+/* retangulo */
+.retângulo {
+    width: 650px;
+    height: 325px;
+    background-color: #C4C4C4;
+}
+/* titulo */
+
+    .content h2{
+        color: #FF4081;
+        font-size: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* paragrafo */
+
+.content p{
+    font-size: 23px;
+    
+}
+ /* marca d'água */
+
+ .plano-de-fundo{
+    width:auto;
+    height: auto;
+    background-color: #E5E5E5;
+
+} 
+
+ 
+

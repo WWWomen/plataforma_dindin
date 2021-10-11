@@ -1,7 +1,7 @@
-/* *{
-    padding:10px;
-    margin: 10px;
-    /* font-family: 'Ubuntu', sans-serif; */
+main{
+    margin-left: 80px;
+    
+}
 
 h2{
     
@@ -16,7 +16,6 @@ h2{
     margin: 0px 32px;
     font-size: 25px;
     color: #555555;
-    
 
 }
 
@@ -49,6 +48,7 @@ button:hover{
 
 .bloco1{
     width: 55%;
+    margin-left: 100px;
 }
 
 .bloco1 p{
@@ -83,25 +83,6 @@ button:hover{
 }
 
 
-
-.img1 img{
-        height: 481px;
-        width: 479px;
-
-        
-    }
-    .img2 img{
-        height: 480px;
-        width: 473px;
-               
-    }
-    .img3 img{
-        height: 614px;
-        width: 480px;
-        padding-top: 15px;
-        
-    }
-
 .container-flex{
     display: flex;
     padding: 40px;
@@ -113,10 +94,79 @@ hr{
     
     border: 0;
     border-top: 5px solid  #C4C4C4;
-    margin: 0 auto;
+    margin: 30px;
     
 } 
 
+ /* Responsividade */
+@media only screen and (max-width: 767px) and (max-width:1023px) {
+    .container-flex{
+    display: grid;
+   margin-left: 26px;
+    width: 124%;
+      
+    }
+    main{
+        margin-left: 25px;
+        margin:30px;
+    }
     
+    h2 {
+        color: #FF4081;
+        padding: 0px 0px 0px 0px;
+        margin-left: 65px;
+        font-size: 33px;
+    }
 
+    .paragrafo1 p{
+        margin: 3px 66px;
+        font-size: 10px;
+        padding-bottom: 0px;
+        color: #555555;
+        
+    
+    }
 
+    .bloco1 h3{
+        color: #FF4081;
+        font-size:18px;
+        padding-left: 37px;
+        text-align:center ;
+    }
+
+    .bloco1 p{
+        padding: 18px 1px 2px 15px;
+        font-size: 15px;
+        padding-bottom: 20px;
+        
+        
+        width: 124%;
+        text-align: justify;
+    }
+    .bloco1{
+        width: 80%;
+        margin: 0px;
+    }
+  .bloco1 button{
+       
+        position: relative;
+        width: 60%;
+        height: 44pX;
+        padding: 10px 10px 10px;
+        font-size: 13PX;
+        /* transition:all 2s ease-out; */
+        margin-top: 5px;
+        margin-left: 90px;
+        
+    }
+    hr{
+        margin: 57px 0px 63px 0px
+       
+        
+    }
+img{
+    max-width: 90%;
+    max-height: 90%;
+    margin-left: 25px;
+}
+}
