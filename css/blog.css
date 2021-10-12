@@ -74,6 +74,172 @@ main{
     background-color: #E5E5E5;
 
 } 
+/* Responsividade  */
+@media only screen and (max-width: 767px) 
 
- 
+/* primeira parte da pagina com texto e imagem */
+{
+    .container-one {
+        display: grid;
+        justify-content: center;
+    }
+
+    .content-one {
+       margin: 0px;
+       width: 100%;
+      
+    }
+    .content-one h1{
+        font-size: 20px;
+        margin-bottom: 50px;
+        text-align: justify;
+    }
+    .content-one p{
+        font-size: 18px;
+        text-align: justify;
+    }
+    .container-one img{
+        /* margin-right: 190px; */
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 70PX;
+        margin-right:0px ;
+
+    }
+    
+    main{
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+    }
+
+/* Aqui inicia a segunda parte com textos e retangulos */
+
+.container-flex {
+    display: grid;
+    margin-bottom: 110px;
+    margin-top: 110px;
+    justify-content: center;
+    margin: 0PX;
+
+}
+ /* retangulo, titulo e paragrafo */
+
+
+/* retangulo */
+.retângulo {
+    width: 292px;
+    height: 194px;
+    margin-top: 70px;
+}
+/* titulo */
+
+    .content h2{
+        color: #FF4081;
+        font-size: 17px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* paragrafo */
+
+.content p{
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 50PX;
+    
+}
+ /* marca d'água */
+
+ .plano-de-fundo{
+    width:auto;
+    height: auto;
+    
+ }
+}
+
+/* ********************Responsivo para tablets****************** */
+
+@media only screen and (min-width: 768px) and (max-width:1024px){
+
+    /* primeira parte da pagina com texto e imagem */
+    
+        .container-one {
+            display: grid;
+            justify-content: center;
+        }
+    
+        .content-one {
+           margin: 0px;
+           width: 100%;
+        }
+        .content-one h1{
+            font-size: 30px;
+            margin-bottom: 50px;
+            text-align: justify;
+        }
+        .content-one p{
+            font-size: 25px;
+            text-align: justify;
+        }
+        .container-one img{
+            max-width: 100%;
+            max-height: 100%;
+            margin-top: 70PX;
+            margin-right:0px ;
+            margin-left: 100px;
+    
+        }
+        
+        main{
+            margin: 0px;
+            padding: 0px;
+            justify-content: center;
+        }
+    
+    /* Aqui inicia a segunda parte com textos e retangulos */
+    
+    .container-flex {
+        display: grid;
+        margin-bottom: 110px;
+        margin-top: 110px;
+        justify-content: center;
+        margin: 0PX;
+    
+    }
+     /* retangulo, titulo e paragrafo */
+    
+    /* retangulo */
+    .retângulo {
+        width: 554px;
+        height: 300px;
+        margin-top: 70px;
+    }
+    /* titulo */
+    
+        .content h2{
+            font-size: 35px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    
+        /* paragrafo */
+    
+    .content p{
+        font-size: 25px;
+        text-align: justify;
+        margin-bottom: 50PX;
+        
+    }
+     /* marca d'água */
+    
+     .plano-de-fundo{
+        width:auto;
+        height: auto;
+        
+     }
+    }
+    
+    
+     
 
