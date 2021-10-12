@@ -1,4 +1,4 @@
-/* *****************      Primeira sessão       ************** */
+/* ******   Primeira sessão  **** */
 
 .section-one {
     background-color: #ffffff;
@@ -55,12 +55,14 @@
 
 .box-two {
    padding: 100px 0px;
-   max-width: 80%;
-   margin: auto;
+   /* max-width: 80%;
+   margin: auto; */
 }
 
 .box-text-image {
     display: flex;    
+    justify-content: space-around;
+    align-items: center;
 }
 
 .box-image-two {
@@ -229,6 +231,7 @@
 
     .box-text-image {
         display: block;
+        text-align: center;
     }
 
     .box-image-two {
@@ -281,10 +284,11 @@
         padding-top: 80px;
         max-width: 80%;
         margin: auto;
+
     }
 
     .title-h1 {
-        font-size: 50px;
+        font-size: 70px;
     }
 
     .text {
@@ -303,7 +307,7 @@
     }
 
     .box-image img {
-        width: 420px;
+        max-width: 500px;
     } 
 
     /* *** Segunda sessão *** */
@@ -314,6 +318,7 @@
 
     .box-text-image {
         display: block;
+        text-align: center;
     }
 
     .box-image-two {
@@ -322,8 +327,6 @@
 
     .box-image-two img {
         max-height: 100%;
-        max-width: 100%;
-        margin-left: 50px;
     }
 
     .title-h4 {

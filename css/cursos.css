@@ -13,13 +13,13 @@ h2{
 }
 
 .paragrafo1 p{
-    margin: 0px 32px;
+    margin: 15px 32px;
     font-size: 25px;
     color: #555555;
 
 }
 
-.paragrafo1{
+.paragrafo1 {
     
     margin-top: -15px;
     padding: 0;
