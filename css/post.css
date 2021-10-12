@@ -1,4 +1,4 @@
-/* *************      Primeira sessão       ************** */
+/* ***  Primeira sessão  *** */
 .section-one {
     background-color: #ffffff;
 }
@@ -11,9 +11,6 @@
 
 .title-h1 {
     text-align: center;
-}
-
-.title-h1 {
     color: #FF4081;
     font-size: 34px;
     font-weight: 500;
@@ -33,6 +30,7 @@
 .p {
     font-size: 18px;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .title-h5 {
@@ -43,7 +41,7 @@
 }
 
 
-/* *****************      Segunda sessão       ************** */
+/* ***  Segunda sessão  *** */
 .section-two {
     background-color: #f6f6f6;
 }
@@ -58,18 +56,16 @@
 
 .box-two {
    padding: 80px 0px;
-   max-width: 80%;
-   margin: auto;
 }
 
 .box-text-image {
-    display: flex;    
+    display: flex;   
+    justify-content: space-around;
+    align-items: center; 
 }
 
 .box-image-two {
-    flex: 1;
-    padding: 0px 50px;
-
+    margin: 0px 50px;
 }
 
 .box-image-two img {
@@ -105,4 +101,101 @@
     text-align: center;
     text-decoration: none;
     color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+    /* *** Primeira sessão *** */
+    .box-text {
+        padding: 80px 0px 80px 0px;
+    }
+    
+    .title-h1 {
+       font-size: 20px; 
+    }
+
+    .box-gray {
+        margin: 60px 0px;
+        height: 250px;
+    }
+
+    /* *** Segunda sessão *** */
+    .title-h2 {
+        font-size: 20px;
+    }
+
+    .box-two {
+        padding: 10px 0px;
+    }
+
+    .box-text-image {
+        display: block;
+        text-align: center;
+    }
+
+    .box-image-two {
+        margin: 50px 0px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    /* *** Primeira sessão *** */
+    .box-text {
+        padding: 80px 0px 80px 0px;
+    }
+    
+    .title-h1 {
+       font-size: 34px; 
+    }
+
+    .title-h1 span {
+        font-size: 18px;
+    }
+
+    .box-gray {
+        margin: 60px 0px;
+        height: 400px;
+    }
+
+    .p {
+        font-size: 24px;
+    }
+
+
+    /* *** Segunda sessão *** */
+    .title-h2 {
+        font-size: 30px;
+    }
+
+    .box-two {
+        padding: 30px 0px;
+    }
+
+    .box-text-image {
+        display: block;
+        text-align: center;
+    }
+
+    .box-image-two {
+        margin: 80px 0px;
+    }
+
+    .box-image-two img {
+        max-height: 100%;
+    }
+
+    .title-h4 {
+        font-size: 34px;
+    }
+
+    .text-two {
+        font-size: 22px;
+    }
+
+    .start-now {
+        width: 220px;
+        padding: 15px;
+        font-size: 22px;
+    }
+
 }

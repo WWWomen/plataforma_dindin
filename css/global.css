@@ -71,40 +71,41 @@
     }
 
     .header a {
-    font-size: 14px;
+    font-size: 12px;
     margin: 5px;
     }
 
     .footer {
         display: block;
+        max-width: 100%;
     }
 
     .links {
         display: flex;
         justify-content: space-around;
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .links a {
-        margin: 20px;
+        margin: 5px;
     }
 
     .footer img {
-        max-width: 150px;
+        max-width: 140px;
         height: auto;
     }
     
     .border-footer {
-        max-width: 220px;
+        max-width: 180px;
         margin: 24px auto;
         text-align: center;
-        font-size: 18px;
+        font-size: 14px;
     }
 }
 
 
 /* *** Media query header e footer para tablets *** */
- @media only screen and (min-width: 768px) {
+ @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .header img {
         max-width: 220px;
         margin: 20px;
@@ -118,6 +119,8 @@
 
     .footer {
         display: block;
+        max-width: 100%;
+        padding: 30px;
     }
 
     .links {
@@ -128,7 +131,7 @@
 
     .links a {
         margin: 30px;
-        font-size: 34px;
+        font-size: 30px;
     }
 
     .footer img {

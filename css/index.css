@@ -55,8 +55,6 @@
 
 .box-two {
    padding: 100px 0px;
-   /* max-width: 80%;
-   margin: auto; */
 }
 
 .box-text-image {
@@ -67,8 +65,6 @@
 
 .box-image-two {
     margin: 0px 50px;
-    /* padding: 0px 50px; */
-
 }
 
 .box-image-two img {
@@ -277,7 +273,7 @@
 
 
 /* Media query Tablets */
-@media only screen and (min-width: 768px) and (max-width: 1023px){
+@media only screen and (min-width: 768px) and (max-width: 1024px){
     /* *** Primeira sessão *** */
     .box-one {
         display: block;
