@@ -2,7 +2,7 @@
 
 A plataforma Dindin é um sistema web solicitado pela Gama Academy em parceria com o Banco BV como desafio final do programa &lt;pra.elas>. 
 A empresa fictícia DINDIN, que deseja lançar uma plataforma de conteúdo sobre Educação Financeira onde as participantes que desenvolveram este projeto foram contratadas como desenvolvedoras!
-Para isso, foi disponibilizado um layout de todas as páginas, para servir como base no desenvolvimento do site com HTML e CSS, disponível em: [acesse o site do Figma com o layout](https://www.figma.com/file/fBQ1nm00ynNQPK9GBwyMBc/dindin?node-id=0%3A1);
+Para isso, foi disponibilizado um layout de todas as páginas, para servir como base no desenvolvimento do site com HTML e CSS, disponível em: [acesse o site do Figma com o layout](https://www.figma.com/file/fBQ1nm00ynNQPK9GBwyMBc/dindin?node-id=0%3A1)
 
 
 
