@@ -25,7 +25,7 @@ main{
     font-size: 27px;
 }
 .container-one img{
-    margin-right: 190px;
+    margin-right: 150px;
 }
 
 /* A primeira parte terminou aqui */
@@ -36,18 +36,19 @@ main{
     display: flex;
     margin-bottom: 110px;
     margin-top: 110px;
+   
 
 }
 
     /* retangulo, titulo e paragrafo */
 
 .content {
-    margin-right: 100px;
+    margin-right: 0px;
     margin-left: 100px;  
 }
 /* retangulo */
 .retângulo {
-    width: 650px;
+    width: 580px;
     height: 325px;
     background-color: #C4C4C4;
 }
@@ -55,7 +56,7 @@ main{
 
     .content h2{
         color: #FF4081;
-        font-size: 40px;
+        font-size: 35px;
         margin-top: 30px;
         margin-bottom: 30px;
     }
@@ -63,7 +64,8 @@ main{
     /* paragrafo */
 
 .content p{
-    font-size: 23px;
+    font-size: 18px;
+    width: 550px;
     
 }
  /* marca d'água */
@@ -72,7 +74,6 @@ main{
     width:auto;
     height: auto;
     background-color: #E5E5E5;
-
 } 
 /* Responsividade  */
 @media only screen and (max-width: 767px) 
@@ -121,11 +122,14 @@ main{
     margin-top: 110px;
     justify-content: center;
     margin: 0PX;
+    
 
 }
  /* retangulo, titulo e paragrafo */
-
-
+ .content{ 
+    margin-right: 0px;
+    margin-left: 5px;
+}
 /* retangulo */
 .retângulo {
     width: 292px;
@@ -147,6 +151,7 @@ main{
     font-size: 15px;
     text-align: justify;
     margin-bottom: 50PX;
+    width: 288px;
     
 }
  /* marca d'água */
@@ -208,7 +213,10 @@ main{
     
     }
      /* retangulo, titulo e paragrafo */
-    
+    .content{ 
+        margin-right: 0px;
+        margin-left: 5px;
+    }
     /* retangulo */
     .retângulo {
         width: 554px;
@@ -229,6 +237,7 @@ main{
         font-size: 25px;
         text-align: justify;
         margin-bottom: 50PX;
+        width:542px;
         
     }
      /* marca d'água */
@@ -238,7 +247,7 @@ main{
         height: auto;
         
      }
-    }
+        }
     
     
      
