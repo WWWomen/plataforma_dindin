@@ -16,12 +16,12 @@ Toda a parte de código desenvolvido pelo projeto da plataforma Dindin by WWWome
 
 A plataforma Dindin by WWWomen, está publicada no GitHub Pages, disponível no link: 
 
-[Plataforma Dindin by WWWomen - GitHub Pages](https://wwwomen.github.io/plataforma_dindin/)  
+[GitHub Pages - Plataforma Dindin by WWWomen](https://wwwomen.github.io/plataforma_dindin/)  
 
 
 A plataforma Dindin by WWWomen, está publicada também no Netilify, disponível no link: 
 
-[Plataforma Dindin by WWWomen - Netilify](https://wwwomen.netlify.app)
+[Netilify - Plataforma Dindin by WWWomen](https://wwwomen.netlify.app)
 
 
 
