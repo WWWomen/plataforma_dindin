@@ -160,6 +160,10 @@ hr{
     width: 100%;
     height: 100%;
     }
+main {
+    width: 100vw;
+    height: 100%;
+}
 .título {
     
     width: 200px;
@@ -170,17 +174,19 @@ hr{
 .container1{
     display: grid;
     justify-content: center;
-    width: 270px;
-    margin-right: 20%;
-    margin-left: 20%;
+    width: 250px;
+    padding: 10% 10% 2% 10%;
+    margin-right: 2%;
+    margin-left: 2%;
+    top:0px;
+    margin-top: 1vh;
 }
 .intro {
    display: grid;
-   justify-content: center;
-   margin-top: 5vh;
-   margin-left: 15%;
-   margin-bottom: 10%;
-
+   flex-direction: column;
+   width: 100%;
+   margin-top:2vh;
+   padding: 5vh 2% 10% 5vw;
 }
 p {
     font-size: 10px;
@@ -193,38 +199,40 @@ p {
 }
 .img {
     display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
+    justify-content: center;
+    margin-right: 10%;
     width: 50%;
     height: 50%;
-    padding: 5% 20%;
-    
+    padding: 0% 20%;
 }  
 .bg-cursos{
     height: auto;
     width: 100%;
     margin-top: 3%;
+    margin: 25vh 0% 10% 0%;
 }
 
 video {
-    display: block;
-    margin-left: 20%;
-    margin-right: 20%;
-    max-width: 250px;
-    padding-bottom: 56.5%;
+    display: flex;
+    max-width: 270px;
+    
     
 }
 .container2 {
     display: grid;
     justify-content: center;
     width: 270px;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin:2% 2% 0 1%;
+    padding: 50% 10% 2% 10%;
+    top:50%;
 }
+
 .Aula1 {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 30%;
+    margin-top: 55vh;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .subtitulo1{
     text-align: center;
@@ -234,10 +242,11 @@ video {
     height: 75%;
 }
 .video1{
-   margin-left: 15.5% ;
-   display: flex;
-   width: 100px;
-   height: auto;
+  display: flex;
+  margin-top:15vh;
+  width: 230px;
+  height: auto;
+  padding-bottom: 20.5%;
 }
 hr{
     display: flex;
@@ -246,41 +255,47 @@ hr{
      height: 3px;
      margin-left: 2%;
      margin-right:2%;
-     margin-top: 2vw;
+     
  }
 
 .Aula2{
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 30%;
+    margin-top: 45vh;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .video2{
-    margin-left: 15.5% ;
     display: flex;
-    width: 100px;
+    margin-top:15vh;
+    width: 230px;
     height: auto;
+    padding-bottom: 20.5%;
 }
 .Aula3 {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 30%;
-
+    margin-top: 45vh;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .video3{
-    margin-left: 15.5% ;
     display: flex;
-    width: 100px;
+    margin-top:10vh;
+    width: 120px;
     height: auto;
+    padding-bottom: 20.5%;
 }
 
 header {
-    display:  Flex;
+    display:  block;
     width: 100%;
 }
 
 .footer {
-    display: flex;
+    display: block;
     width: 100%;
+}
 }
 
 /*   Resposividade Tablet   */
@@ -358,4 +373,5 @@ header {
 }
 .video3{
     margin-top:5vh;
+}
 }
