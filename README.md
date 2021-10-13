@@ -2,19 +2,22 @@
 
 A plataforma Dindin é um sistema web solicitado pela Gama Academy em parceria com o Banco BV como desafio final do programa &lt;pra.elas>. 
 A empresa fictícia DINDIN, que deseja lançar uma plataforma de conteúdo sobre Educação Financeira onde as participantes que desenvolveram este projeto foram contratadas como desenvolvedoras!
-Para isso, foi disponibilizado um layout de todas as páginas, para servir como base no desenvolvimento do site com HTML e CSS, disponível em:[acesse o site](https://www.figma.com/file/fBQ1nm00ynNQPK9GBwyMBc/dindin?node-id=0%3A1);
+Para isso, foi disponibilizado um layout de todas as páginas, para servir como base no desenvolvimento do site com HTML e CSS, disponível em: [acesse o site do Figma com o layout](https://www.figma.com/file/fBQ1nm00ynNQPK9GBwyMBc/dindin?node-id=0%3A1);
+
 
 
 
 ## Links da plataforma Dindin by WWWomen
 
 A plataforma Dindin by WWWomen, está publicada no GitHub Pages, disponível no link: 
-[Plataforma Dindin by WWWomen - GitHub Pages](https://wwwomen.github.io/plataforma_dindin/);  
+
+[Plataforma Dindin by WWWomen - GitHub Pages](https://wwwomen.github.io/plataforma_dindin/)  
 
 
 A plataforma Dindin by WWWomen, está publicada também no Netilify, disponível no link: 
 
-[Plataforma Dindin by WWWomen - Netilify](https://wwwomen.netlify.app);
+[Plataforma Dindin by WWWomen - Netilify](https://wwwomen.netlify.app)
+
 
 
 
@@ -22,7 +25,11 @@ A plataforma Dindin by WWWomen, está publicada também no Netilify, disponível
 
 Como solicitado, foi construído a elaboração do kanban do projeto na plataforma Notion, com o detalhamento de todas as etapas, todas as tarefas organizadas e seus responsáveis definidos.
 
-O link com todas as informações esta disponível em: [Link do Notion](https://gboorges.notion.site/gboorges/4ddbf4a312f2425fb19609ca6b3ace81?v=4c78458850d348b9b5bb6d02f320528e);
+O link com todas as informações esta disponível em:
+
+[Link do Notion WWWomen](https://gboorges.notion.site/gboorges/4ddbf4a312f2425fb19609ca6b3ace81?v=4c78458850d348b9b5bb6d02f320528e)
+
+
 
 
 ## MER - Modelo Entidade Relacionamento
