@@ -9,6 +9,11 @@ Para isso, foi disponibilizado um layout de todas as páginas, para servir como 
 
 ## Links da plataforma Dindin by WWWomen
 
+Toda a parte de código desenvolvido pelo projeto da plataforma Dindin by WWWomen está disponível no repositório do Github através do link:
+
+[Github - WWWomen/plataforma_dindin](https://github.com/WWWomen/plataforma_dindin)
+
+
 A plataforma Dindin by WWWomen, está publicada no GitHub Pages, disponível no link: 
 
 [Plataforma Dindin by WWWomen - GitHub Pages](https://wwwomen.github.io/plataforma_dindin/)  
