@@ -37,7 +37,7 @@ No mini mundo da plataforma Dindin nós realizamos o mapeamento da seguinte form
 
 MER - plataforma Dindin by WWWomen
 
-![MER - plataforma Dindin by WWWomen](/img/MER_DINDIN.png 'Imagem do MER - plataforma Dindin by WWWomen');
+![MER - plataforma Dindin by WWWomen](/img/MER_DINDIN.png 'Imagem do MER - plataforma Dindin by WWWomen')
 
 
 
