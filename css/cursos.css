@@ -1,0 +1,230 @@
+main{
+    margin-left: 80px;
+    
+}
+
+h2{
+    
+    color: #FF4081;
+    padding: 40px 0px 0px 0px;
+    margin: 0px 25px 0px 30px;
+    font-size: 75px;
+    
+}
+
+.paragrafo1 p{
+    margin: 15px 32px;
+    font-size: 25px;
+    color: #555555;
+
+}
+
+.paragrafo1 {
+    
+    margin-top: -15px;
+    padding: 0;
+}
+   
+button{
+    background: #419488;
+    color: #FFFFFF;
+    position: absolute;
+    border-radius: 50px;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    width: 17%;
+    height: 65pX;
+    padding: 10px 10px 10px;
+    font-size: 25PX;
+    transition:all 2s ease-out;
+    margin-top: 30px;
+   
+}
+button:hover{
+    background-position: left bottom;
+    background: #16f1d1;
+}
+
+.bloco1{
+    width: 55%;
+    margin-left: 100px;
+}
+
+.bloco1 p{
+    padding: 40px 0px 20px;
+    font-size: 20px;
+    font-weight:200;
+    margin-right: 25px;
+    
+    
+}
+.bloco1 h3{
+    color: #FF4081;
+    padding:0px; 
+    font-size:45px;
+    
+}
+
+.txt h3{
+    margin-top: 65px;
+    margin-left: 0px;
+}
+
+.txt{
+    margin-left: 0px;
+}
+.txt p{
+    margin-top: 0px;
+}
+.txt button{
+    
+   margin-top: 15px;
+}
+
+
+.container-flex{
+    display: flex;
+    padding: 40px;
+    margin: auto;
+    width: 100%;
+   
+}
+hr{ 
+    
+    border: 0;
+    border-top: 5px solid  #C4C4C4;
+    margin: 30px;
+    
+} 
+
+ /* Responsividade */
+@media only screen and (max-width: 767px) {
+    .container-flex{
+    display: grid;
+    width: 110%;
+    padding: 10px;
+      
+    }
+    main{
+        margin-left: 25px;
+        margin:30px;
+    }
+    
+    h2 {
+        padding: 0px 0px 0px 0px;
+        margin-left: 0px;
+        font-size: 33px;
+    }
+
+    .paragrafo1 p{
+        margin: 7px 5px;
+        font-size: 15px;
+        padding-bottom: 0px;
+    
+    }
+
+    .bloco1 h3{
+        font-size:18px;
+        padding-left: 37px;
+        text-align:center ;
+    }
+
+    .bloco1 p{
+        font-size: 15px;
+        padding-bottom: 20px;
+        width: 115%;
+        text-align: justify;
+    }
+    .bloco1{
+        width: 80%;
+        margin: 0px;
+    }
+  .bloco1 button{
+       
+        position: relative;
+        width: 60%;
+        height: 44pX;
+        padding: 10px 10px 10px;
+        font-size: 13PX;
+        margin-top: 5px;
+        margin-left: 67px;
+        
+    }
+    hr{
+        margin: 57px 0px 63px 0px;
+       
+        
+    }
+.img1 img{
+    max-width: 83%;
+    max-height: 90%;
+    margin-left: 25px;
+}
+}
+
+/* ******************Responsividade para tablet************************* */
+
+@media only screen and  (min-width: 768px) and (max-width:1024px){
+    .container-flex{
+    display: grid;
+    width: 106%;
+    padding: 0px;
+      
+    }
+    main{
+        margin-left: 25px;
+        margin:30px;
+    }
+    
+    h2 {
+        padding: 0px 0px 0px 0px;
+        margin-left: 0px;
+        font-size: 40px;
+    }
+
+    .paragrafo1 p{
+        margin: 3px 5px;
+        font-size: 25px;
+        padding-bottom: 0px;
+    
+    }
+
+    .bloco1 h3{
+        font-size:34px;
+        padding-left: 37px;
+        text-align:center ;
+    }
+
+    .bloco1 p{
+        font-size: 25px;
+        padding-bottom: 20px;
+        width: 113%;
+        text-align: justify;
+    }
+    .bloco1{
+        width: 80%;
+        margin: 0px;
+    }
+  .bloco1 button{
+       
+        position: relative;
+        width: 54%;
+        height: 71pX;
+        padding: 10px 10px 10px;
+        font-size: 25PX;
+        margin-top: 5px;
+        margin-left: 157px;
+        
+    }
+    hr{
+        margin: 57px 0px 63px 0px;
+       
+        
+    }
+.img1 img{
+    max-width: 90%;
+    max-height: 90%;
+    margin-left: 147px;
+}
+}

@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/cursos.css">
+    <link rel="stylesheet" href="css/cursos.css">
     <title>Dindin | Educação Financeira</title>
 </head>
+
 <body>
     <header>
         <div class="header">
@@ -25,11 +27,56 @@
     </header>
 
     <main>
+        <h2>Cursos</h2>
+        <div class="paragrafo1">
+            <p>Educação financeira é tudo de bom</p>
+        </div>
+        <div class="container-flex">
+            <div class="img1">
+                <img src="img/ilustra-poupando.png" alt="Poupando">
+            </div>
+            <div class="bloco1">
+                <h3>Investimento para iniciantes</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                <a href="./curso.html"><button>Começar agora</button></a>
+            </div>
+        </div>
 
+        <!-- Linha de separação -->
 
-        <h1>ÁREA DE DESENVOLVIMENTO</h1>
-        
+        <hr>
 
+        <div class="container-flex">
+            <div class="img1">
+                <img src="img/ilustra-investimento.png" alt="Investimento">
+            </div>
+            <div class="bloco1">
+                <h3>Poupando e Rendendo</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                <button onclick="mensagem()">Começar agora</button>
+            </div>
+        </div>
+
+        <!-- Linha de separação -->
+
+        <hr>
+
+        <div class="container-flex">
+            <div class="img1">
+                <img src="img/ilustra-independencia.png" alt="Independência">
+            </div>
+            <div class="bloco1">
+                <div class="txt">
+                    <h3>Independência financeira</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    <button onclick="mensagem()">Começar agora</button>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -39,20 +86,28 @@
                     <img src="./img/logo-footer.png" alt="Logo Dindin rodapé">
                 </a>
             </div>
-            <div>
+            <div class="links">
                 <a href="./cursos.html">cursos</a>
                 <a href="./blog.html">blog</a>
                 <a href="./contato.html">contato</a>
             </div>
             <div>
                 <div class="border-footer">
-                    <p>quero ser um prof</p>
+                    <a href="./contato.html">quero ser um prof</a>
                 </div>
                 <div class="border-footer">
-                    <p>aqui tem outro link</p>
+                    <a href="./contato.html" >tenho uma sugestão</a >
                 </div>
             </div>
         </div>
-    </footer>    
+    </footer>
+
+    
+    <script>
+        function mensagem() {
+            alert("Estamos preparando este curso pra vocês!\nAguarde em breve!");
+        }
+    </script>
 </body>
+
 </html>

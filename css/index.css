@@ -1,4 +1,4 @@
-/* *****************      Primeira sessão       ************** */
+/* ******   Primeira sessão  **** */
 
 .section-one {
     background-color: #ffffff;
@@ -50,12 +50,367 @@
 
 /* *****************      Segunda sessão       ************** */
 .section-two {
-    background-color: #F7F7F7;
+    background-color: #f6f6f6;
 }
 
 .box-two {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;  
-    margin-top: 80px;
+   padding: 100px 0px;
 }
+
+.box-text-image {
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-image-two {
+    margin: 0px 50px;
+}
+
+.box-image-two img {
+    max-height: 250px;
+}
+
+.box-title-two {
+    text-align: center;
+}
+
+.title-h4 {
+    margin-top: 10px;
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.text-two {
+    margin: 20px 0px;
+    color:#555555;
+    font-size: 14px;
+}
+
+.start-now {
+    width: 160px;
+    background: #FF4081;
+    border-radius: 50px;
+    padding: 10px;
+    margin: auto;
+}
+
+.start-now a {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* ***************    Terceira Sessão       ************** */
+.section-three {
+    background-color: #ffffff;
+}
+
+.box-three {
+    padding: 100px 0px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.title-h2 {
+    color: #009688;
+    font-size: 28px;
+    font-weight: 400;
+} 
+
+.box-text-image-three {
+    display: flex;
+    padding-top: 60px;
+}
+
+.talk-about-us {
+    max-width: 35%;
+    padding: 0px 50px 0px 25px;
+} 
+
+.declaration {
+    font-size: 14px;
+}
+
+.person {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+
+/* **********   Quarta Sessão       ********* */
+.section-four {
+    background-color:#f6f6f6;
+}
+
+.box-four {
+    padding: 100px 0px 20px 0px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.title-h3 {
+    color: #009688;
+    font-size: 24px;
+}
+
+.box-text-image-four {
+    display: flex;
+    padding-top: 80px;
+}
+
+.box-card {
+    padding: 0px 100px 0px 0px;
+}
+
+.box-gray {
+    background-color: #c4c4c4;
+    height: 190px;
+    width: 300px;
+}
+
+.text-post {
+    color: #009688;
+    font-size: 20px;
+    font-weight: 700; 
+    margin-top: 15px;
+}
+
+.section-five {
+    background-color:#f6f6f6;
+    padding: 40px ;
+}
+
+.see-all-post {
+    text-align: center;
+    border: 2px solid #FF4081;
+    border-radius: 50px;
+    max-width: 200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.see-all-post a {
+    text-decoration: none;
+    color: #FF4081;
+}
+
+
+
+/* ******* Media query Index */
+
+@media only screen and (max-width: 767px) {
+    /* *** Primeira sessão *** */
+    .box-one {
+        display: block;
+        padding-top: 50px;
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .box-image {
+        margin-top: 50px;
+    }
+
+    .box-image img {
+        width: 250px;
+    }
+
+    /* *** Segunda sessão *** */
+
+    .box-two {
+        padding: 30px 0px;
+    }
+
+    .box-text-image {
+        display: block;
+        text-align: center;
+    }
+
+    .box-image-two {
+        margin: 80px 0px;
+    }
+
+    /* *** Terceira sessão *** */
+    .box-three {
+        padding: 60px 0px;
+    }
+
+    .title-h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .box-text-image-three {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .talk-about-us {
+        max-width: 100%;
+        padding: 0px;
+        margin: 10px 0px;
+    }
+
+    /* *** Quarta sessão *** */
+
+    .title-h3 {
+        font-size: 25px;
+    }
+
+    .box-text-image-four {
+        display: block;
+    }
+
+    .box-card {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+/* Media query Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    /* *** Primeira sessão *** */
+    .box-one {
+        display: block;
+        padding-top: 80px;
+        max-width: 80%;
+        margin: auto;
+
+    }
+
+    .title-h1 {
+        font-size: 70px;
+    }
+
+    .text {
+        font-size: 26px;
+    }
+
+    .know-more {
+        width: 220px;
+        font-size: 22px;
+        font-weight: 500;
+        border: 3px solid #FF4081;
+    }
+
+    .box-image {
+        margin-top: 50px;
+    }
+
+    .box-image img {
+        max-width: 500px;
+    } 
+
+    /* *** Segunda sessão *** */
+
+    .box-two {
+        padding: 30px 0px;
+    }
+
+    .box-text-image {
+        display: block;
+        text-align: center;
+    }
+
+    .box-image-two {
+        margin: 80px 0px;
+    }
+
+    .box-image-two img {
+        max-height: 100%;
+    }
+
+    .title-h4 {
+        font-size: 34px;
+    }
+
+    .text-two {
+        font-size: 22px;
+    }
+
+    .start-now {
+        width: 220px;
+        padding: 15px;
+        font-size: 22px;
+    }
+
+    /* *** Terceira sessão *** */
+    .box-three {
+        padding: 60px 0px;
+    }
+
+    .title-h2 {
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    .box-text-image-three {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .box-text-image-three img {
+        width: 140px;
+    }
+
+    .talk-about-us {
+        max-width: 80%;
+        padding: 0px;
+        margin: 20px 0px;
+    } 
+
+    .declaration {
+        font-size: 24px;
+    }
+
+    .person {
+        font-size: 22px;
+    }
+
+    /* *** Quarta sessão *** */
+
+    .title-h3 {
+        font-size: 30px;
+    }
+
+    .box-text-image-four {
+        display: block;
+    }
+
+    .box-card {
+        margin-bottom: 30px;
+    } 
+
+    .box-gray {
+        height: 250px;
+        width: 450px;
+    }
+
+    .text-post {
+        font-size: 30px;
+    }
+
+    .text-info-post {
+        max-width: 450px;
+        font-size: 24px;
+    }
+
+    .see-all-post {
+        border: 3px solid #FF4081;
+        max-width: 260px;
+        padding: 14px;
+        font-size: 24px;
+    }
+    
+}
+
+
+
+
+
+
