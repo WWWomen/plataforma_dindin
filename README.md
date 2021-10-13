@@ -9,19 +9,13 @@ Para isso, foi disponibilizado um layout de todas as páginas, para servir como 
 
 ## Links da plataforma Dindin by WWWomen
 
-Toda a parte de código desenvolvido pelo projeto da plataforma Dindin by WWWomen está disponível no repositório do Github através do link:
-
-[Github - WWWomen/plataforma_dindin](https://github.com/WWWomen/plataforma_dindin)
+Toda a parte de código desenvolvido pelo projeto da plataforma Dindin by WWWomen está disponível no repositório do Github através do link: [Github - WWWomen/plataforma_dindin](https://github.com/WWWomen/plataforma_dindin)
 
 
-A plataforma Dindin by WWWomen, está publicada no GitHub Pages, disponível no link: 
-
-[GitHub Pages - Plataforma Dindin by WWWomen](https://wwwomen.github.io/plataforma_dindin/)  
+A plataforma Dindin by WWWomen, está publicada no GitHub Pages, disponível no link: [GitHub Pages - Plataforma Dindin by WWWomen](https://wwwomen.github.io/plataforma_dindin/)  
 
 
-A plataforma Dindin by WWWomen, está publicada também no Netilify, disponível no link: 
-
-[Netilify - Plataforma Dindin by WWWomen](https://wwwomen.netlify.app)
+A plataforma Dindin by WWWomen, está publicada também no Netilify, disponível no link: [Netilify - Plataforma Dindin by WWWomen](https://wwwomen.netlify.app)
 
 
 
@@ -30,9 +24,7 @@ A plataforma Dindin by WWWomen, está publicada também no Netilify, disponível
 
 Como solicitado, foi construído a elaboração do kanban do projeto na plataforma Notion, com o detalhamento de todas as etapas, todas as tarefas organizadas e seus responsáveis definidos.
 
-O link com todas as informações esta disponível em:
-
-[Link do Notion WWWomen](https://gboorges.notion.site/gboorges/4ddbf4a312f2425fb19609ca6b3ace81?v=4c78458850d348b9b5bb6d02f320528e)
+O link com todas as informações esta disponível em: [Link do Notion WWWomen](https://gboorges.notion.site/gboorges/4ddbf4a312f2425fb19609ca6b3ace81?v=4c78458850d348b9b5bb6d02f320528e)
 
 
 
