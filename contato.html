@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./css/contato.css">
     <title>Dindin | Educação Financeira</title>
 </head>
+
 <body>
     <header>
         <div class="header">
@@ -25,10 +27,41 @@
     </header>
 
     <main>
+        <section class="tudo">
+            <div class="elem_tudo">
+                <div class="elem_form">
+                    <h1> Contato </h1>
 
+                    <form action="/contato.html">
+                        <!-- acrescente a URL para onde os dados inseridos deverão ser encaminhados -->
+                        <div class="inputs">
+                            <input type="text" name="name" placeholder="nome" id="nome">
+                            <input type="tel" name="tel" placeholder="telefone" id="telefone">
+                            <input type="email" name="email" placeholder="email" id="email">
+                            <select name="subject" id="assunto">
+                                <option value="nun" selected disabled> assunto </option>
+                                <option value="feedback"> elogios, críticas e sugestões </option>
+                                <option value="class"> dúvidas sobre as aulas </option>
+                                <option value="blog"> dúvidas sobre o blog </option>
+                                <option value="technical"> problemas técnicos na plataforma </option>
+                                <option value="other"> outros </option>
+                            </select>
+                            <textarea name="comment" placeholder="digite aqui sua mensagem!" id="mensagem"></textarea>
+                        </div>
+                        <button
+                            onclick="alert('Obrigada por enviar sua mensagem!\nRetornaremos em breve.')">enviar</button>
+                    </form>
+                </div>
 
-        <h1>ÁREA DE DESENVOLVIMENTO</h1>
-        
+                <div class="elem_img">
+                    <figure>
+                        <img src="/img/ilustra-contato.png"
+                            alt="Duas pessoas conversando por meio de um 'telefone' feito de latas e barbante."
+                            title="Ilustração Contatos">
+                    </figure>
+                </div>
+            </div>
+        </section>
 
     </main>
 
@@ -39,20 +72,21 @@
                     <img src="./img/logo-footer.png" alt="Logo Dindin rodapé">
                 </a>
             </div>
-            <div>
+            <div class="links">
                 <a href="./cursos.html">cursos</a>
                 <a href="./blog.html">blog</a>
                 <a href="./contato.html">contato</a>
             </div>
             <div>
                 <div class="border-footer">
-                    <p>quero ser um prof</p>
+                    <a href="./contato.html">quero ser um prof</a>
                 </div>
                 <div class="border-footer">
-                    <p>aqui tem outro link</p>
+                    <a href="./contato.html">tenho uma sugestão</a>
                 </div>
             </div>
         </div>
-    </footer>   
+    </footer>
 </body>
+
 </html>

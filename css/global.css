@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
 }
 .header img {
     max-width: 180px;
@@ -56,8 +56,8 @@
     border-radius: 50px;
 }
 
-.border-footer p {
+.border-footer a {
     padding: 10px 20px;
     color: #ffffff; 
+    font-weight: normal;
 }
-
