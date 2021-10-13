@@ -281,6 +281,8 @@ header {
     width: 100%;
 }
 
+}
+
 /*   Resposividade Tablet   */
 @media only screen and (min-width:768px) and (max-width:1023px){
    .intro {
@@ -304,7 +306,7 @@ header {
     .texto1 {
         margin-top:30vh;
         text-align: center;
-}
+    }
     .img {
         position: absolute;
         margin-right: 40vw;
@@ -313,7 +315,7 @@ header {
         width: 200px;
         height: 190px;
        
- }
+    }
  .container2{
    margin-left: -3vw;
 }
