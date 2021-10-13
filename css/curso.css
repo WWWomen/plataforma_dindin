@@ -1,5 +1,3 @@
-
-
 main{
     height: 100%;
     margin: 0px;
@@ -9,6 +7,7 @@ main{
     display: flex;
     flex-direction: column;
 }
+
 h1,h2 {
     color: #FF4081;
     font: normal;
@@ -33,6 +32,7 @@ p {
     height: 51px;
     text-align: center;
 }
+
 video {
     display: flex;
     max-width: 462px;
@@ -49,26 +49,25 @@ video {
     margin: 197px auto auto auto;
 
 }
+
 .container1{
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
 }
 
-.título{
-
+.título {
     height: 126px;
-     max-width: 512px;
+    max-width: 512px;
     font-size: 55px;
 }
 
 .texto1 {
     margin-top: 22px; 
     text-align:left;
-      max-width: 461px;
+    max-width: 461px;
     height: 186px;
-
 }
 
 .img {
@@ -80,7 +79,7 @@ align-items: stretch;
 
 /* Style Aulas*/
 
-.container2{
+.container2 { 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -90,35 +89,35 @@ align-items: stretch;
     margin-left: 76px;
 }
 
-.bg-cursos{
+.bg-cursos {
     display: flex;
     flex-direction: column;
     height: auto;
     width: auto;
     margin-top: 81px;
-    background: #f7f7f7;
-   
-    
+    background: #f7f7f7; 
 }
+
 /* Aula 1*/
 .Aula1 {
     display: flex;
     max-width: 1050px;
     height: 261px;
     margin-top: 75px;
-   margin: 75px auto auto auto;
+    margin: 75px auto auto auto;
 }
-.video1{
+
+.video1 {
     display: flex;
-    
 }
-.subtitulo1{
+
+.subtitulo1 {
     max-width: 512px;
-   height: 40px;
-   margin-left: 0px; 
+    height: 40px;
+    margin-left: 0px; 
 }
-.texto2{
-    
+
+.texto2 {
     margin-top: 26px;
     margin-left: 0px;
     max-width: 501px;
@@ -127,7 +126,7 @@ align-items: stretch;
 
 /*Aula 2*/
 
-.Aula2{
+.Aula2 {
     display: flex;
     max-width: 1050px;
     height: 261px;
@@ -140,10 +139,9 @@ align-items: stretch;
     height: 261px;
     margin: 75px auto auto auto;
     margin-bottom: 75px;
-
 }
 
-hr{
+hr {
    display: flex;
     width: auto;
     background-color: #c4c4c4;
@@ -152,145 +150,175 @@ hr{
     margin-right:98px;
     margin-top: 73px;
 }
+
 /*      Resposividade Celular     */
-@media screen and (max-width:767px){
-.html,body{
+@media screen and (max-width:767px) {
+    .html, body{
     display: grid;
     justify-content: center;
     width: 100%;
     height: 100%;
     }
-.título {
-    
-    width: 200px;
-    height: auto;
-    font-size: 30px;
-    text-align: justify;
-}
-.container1{
-    display: grid;
-    justify-content: center;
-    width: 270px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-.intro {
-   display: grid;
-   justify-content: center;
-   margin-top: 5vh;
-   margin-left: 15%;
-   margin-bottom: 10%;
 
-}
-p {
-    font-size: 10px;
-    padding: 0 auto;
-}
-.texto1{
-   height: 75%;
-    top: 2vh;
-    text-align: justify;
-}
-.img {
-    display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
-    width: 50%;
-    height: 50%;
-    padding: 5% 20%;
-    
-}  
-.bg-cursos{
-    height: auto;
+    main {
+        width: 100vw;
+        height: 100%;
+    }
+
+    .título {
+        width: 200px;
+        height: auto;
+        font-size: 30px;
+        text-align: justify;
+    }
+
+    .container1{
+        display: grid;
+        justify-content: center;
+        width: 250px;
+        padding: 10% 10% 2% 10%;
+        margin-right: 2%;
+        margin-left: 2%;
+        top:0px;
+        margin-top: 1vh;
+    }
+
+    .intro {
+    display: grid;
+    flex-direction: column;
     width: 100%;
-    margin-top: 3%;
-}
+    margin-top:2vh;
+    padding: 5vh 2% 10% 5vw;
+    }
 
-video {
-    display: block;
-    margin-left: 20%;
-    margin-right: 20%;
-    max-width: 250px;
-    padding-bottom: 56.5%;
-    
-}
-.container2 {
-    display: grid;
-    justify-content: center;
-    width: 270px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-.Aula1 {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top: 30%;
-}
-.subtitulo1{
-    text-align: center;
-}
-.texto2{
-    text-align: justify; 
+    p {
+        font-size: 10px;
+        padding: 0 auto;
+    }
+
+    .texto1{
     height: 75%;
-}
-.video1{
-   margin-left: 15.5% ;
-   display: flex;
-   width: 100px;
-   height: auto;
-}
-hr{
-    display: flex;
-     width: auto;
-     background-color: #c4c4c4;
-     height: 3px;
-     margin-left: 2%;
-     margin-right:2%;
-     margin-top: 2vw;
- }
+        top: 2vh;
+        text-align: justify;
+    }
 
-.Aula2{
+    .img {
+        display: flex;
+        justify-content: center;
+        margin-right: 10%;
+        width: 50%;
+        height: 50%;
+        padding: 0% 20%;
+    }  
+
+    .bg-cursos{
+        height: auto;
+        width: 100%;
+        margin-top: 3%;
+        margin: 25vh 0% 10% 0%;
+    }
+
+    video {
+        display: flex;
+        max-width: 270px;
+    }
+
+    .container2 {
+        display: grid;
+        justify-content: center;
+        width: 270px;
+        margin:2% 2% 0 1%;
+        padding: 50% 10% 2% 10%;
+        top:50%;
+    }
+
+    .Aula1 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 55vh;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .subtitulo1 {
+        text-align: center;
+    }
+
+    .texto2 {
+        text-align: justify; 
+        height: 75%;
+    }
+
+    .video1 {
     display: flex;
-    flex-direction: column-reverse;
-    margin-top: 30%;
-}
-.video2{
-    margin-left: 15.5% ;
-    display: flex;
-    width: 100px;
+    margin-top:15vh;
+    width: 230px;
     height: auto;
-}
-.Aula3 {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top: 30%;
+    padding-bottom: 20.5%;
+    }
 
-}
-.video3{
-    margin-left: 15.5% ;
-    display: flex;
-    width: 100px;
-    height: auto;
+    hr {
+        display: flex;
+        width: auto;
+        background-color: #c4c4c4;
+        height: 3px;
+        margin-left: 2%;
+        margin-right:2%;
+    }
+
+    .Aula2 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 45vh;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .video2 {
+        display: flex;
+        margin-top:15vh;
+        width: 230px;
+        height: auto;
+        padding-bottom: 20.5%;
+    }
+
+    .Aula3 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 45vh;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .video3 {
+        display: flex;
+        margin-top:10vh;
+        width: 120px;
+        height: auto;
+        padding-bottom: 20.5%;
+    }
+
+    header {
+        display:  block;
+        width: 100%;
+    }
+
+    .footer {
+        display: block;
+        width: 100%;
+    }
 }
 
-header {
-    display:  Flex;
-    width: 100%;
-}
-
-.footer {
-    display: flex;
-    width: 100%;
-}
 
 /*   Resposividade Tablet   */
-@media only screen and (min-width:768px) and (max-width:1023px){
+@media only screen and (min-width:768px) and (max-width:1023px) {
    .intro {
         width: 100vw;
         align-items: center; 
         margin-left: 0vw;   
         margin-right: 0vw; 
     }
+
     .container1{
         display: flex;
         align-items: center;
@@ -298,15 +326,17 @@ header {
         width: 100vw;
         margin-left: 30vw;
         margin-right: 30vw;
-        }
+    }
 
     .título{
         text-align:center;
     }
+
     .texto1 {
         margin-top:30vh;
         text-align: center;
-}
+    }
+
     .img {
         position: absolute;
         margin-right: 40vw;
@@ -315,32 +345,60 @@ header {
         width: 200px;
         height: 190px;
        
- }
- .container2{
-   margin-left: -3vw;
-}
- .bg-cursos{
-    height: auto;
-    width: 100%;
-    margin-top: 25vh;
-    
-}
-.Aula1 {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top: 40vh;
-   margin-left: 20vw;
-}    
-.subtitulo1{
-    text-align: center;
-}
-.texto2{
-    text-align: center;   
-}
-.video1{
-    margin-top:5vh;
-}
+    }
 
+    .container2{
+    margin-left: -3vw;
+    }
+
+    .bg-cursos{
+        height: auto;
+        width: 100%;
+        margin-top: 25vh;  
+    }
+
+    .Aula1 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 40vh;
+        margin-left: 20vw;
+    }   
+
+    .subtitulo1 {
+        text-align: center;
+    }
+
+    .texto2 {
+        text-align: center;   
+    }
+
+    .video1 {
+        margin-top:5vh;
+    }
+
+    .Aula2 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 40.5vh;
+        margin-left: 20vw;
+    }
+
+    .video2 {
+        margin-top:5vh;
+    }
+
+    .Aula3 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 40.5vh;
+        margin-left: 20vw;
+    } 
+    
+    .video3{
+        margin-top:5vh;
+    }
+
+<<<<<<< HEAD
 .Aula2{
     display: flex;
     flex-direction: column-reverse;
@@ -360,3 +418,6 @@ header {
     margin-top:5vh;
 }
 
+=======
+}
+>>>>>>> ff0998a7c3af4964a42f83e80d5d0c24ac05fe39
